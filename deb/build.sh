@@ -29,7 +29,7 @@ echo "sonar (${VER}) unstable; urgency=low
 
 # prepare sonar
 unzip sonar-${VER}.zip -d tmp/opt/
-mv tmp/opt/sonar-${VER}/ tmp/opt/sonar/
+mv tmp/opt/sonarqube-${VER}/ tmp/opt/sonar/
 
 # Remove unnecessary files
 rm -rv tmp/opt/sonar/bin/windows*
