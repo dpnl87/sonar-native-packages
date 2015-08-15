@@ -1,0 +1,9 @@
+sudo: required
+
+notifications:
+  email: false
+
+# Skip "install" stage:
+install: true
+
+script: true
