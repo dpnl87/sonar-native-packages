@@ -1,7 +1,12 @@
-sudo: required
+sudo: false
 
 notifications:
   email: false
+
+addons:
+  apt:
+    packages:
+      - rpm
 
 # Skip "install" stage:
 install: true
