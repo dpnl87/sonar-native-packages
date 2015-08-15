@@ -6,4 +6,4 @@ notifications:
 # Skip "install" stage:
 install: true
 
-script: true
+script: ./travis.sh
