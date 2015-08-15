@@ -28,7 +28,7 @@ echo "sonar (${VER}) unstable; urgency=low
 " > debian/changelog
 
 # prepare sonar
-unzip sonar-${VER}.zip -d tmp/opt/
+unzip sonarqube-${VER}.zip -d tmp/opt/
 mv tmp/opt/sonarqube-${VER}/ tmp/opt/sonar/
 
 # Remove unnecessary files
