@@ -19,9 +19,9 @@ fi
 
 MACHINE_TYPE=`getconf LONG_BIT`
 if [ "${MACHINE_TYPE}" = "64" ]; then
-  JSW=/opt/sonarcube/bin/linux-x86-64/sonar.sh
+  JSW=/opt/sonarqube/bin/linux-x86-64/sonar.sh
 else
-  JSW=/opt/sonarcube/bin/linux-x86-32/sonar.sh
+  JSW=/opt/sonarqube/bin/linux-x86-32/sonar.sh
 fi
 
 check_rc()
